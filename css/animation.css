@@ -1,0 +1,32 @@
+.float-image-left{
+	
+	animation: main-animation 4s;
+	
+}
+.float-right{
+	animation: float-right 4s;
+
+}
+.about-image:hover{
+	transform: scale(1.1);
+	transition-duration: 2s;
+	transi
+}
+@keyframes main-animation{
+	0%{
+		transform: translateX(-120%);
+
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+@keyframes float-right{
+	0%{
+		transform: translateX(150%);
+
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
